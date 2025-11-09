@@ -116,7 +116,8 @@ Instead, Intel went with the “one gigantic package for everything” approach,
 
 Does this make sense? You decide.
 
-However, the problem resurfaces in the future: some drivers use a different hardware ID (**19347**), forcing us to revisit Intel's not-so-friendly driver search page.  
+However, the problem resurfaces in the future: Intel provides a special page for certain drivers (e.g., ID 19347). This link points to a specific driver now, but it may change when a new page is generated for a newer driver.
+
 To make things easier, this link should list **all future Intel Chipset INF Utility drivers**:  
 [https://www.intel.com/content/www/us/en/search.html?ws=idsa-default#q=Chipset%20INF%20Utility&sort=relevancy&f:@tabfilter=[Downloads]&f:@stm_10385_en=[Chipsets]](https://www.intel.com/content/www/us/en/search.html?ws=idsa-default#q=Chipset%20INF%20Utility&sort=relevancy&f:@tabfilter=[Downloads]&f:@stm_10385_en=[Chipsets])
 
