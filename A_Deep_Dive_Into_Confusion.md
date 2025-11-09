@@ -105,14 +105,27 @@ If someone at Intel had organized this properly, we would have **separate packag
 | IntelChipset-Patsburg-15.1.0-win10-win11.exe  | 15.1.0 | 20/01/2015  |
 
 
-Each would contain only the relevant INF files — clear, versioned, and predictable.
+Each package would contain only the relevant INF files — clear, versioned, and predictable.
 
 Instead, Intel went with the “one gigantic package for everything” approach, such as:
 
-- 10.1.20266.8668 (consumer bundle)
-- 10.1.20314.8688 (server-only bundle, not publicly available)
+- **10.1.20266.8668** (consumer bundle)  
+- **10.1.20314.8688** (server-only bundle, not publicly available)  
 
 Does this make sense? You decide.
+
+However, the problem resurfaces in the future: some drivers use a different hardware ID (**19347**), forcing us to revisit Intel's not-so-friendly driver search page.  
+To make things easier, this link should list **all future Intel Chipset INF Utility drivers**:  
+[https://www.intel.com/content/www/us/en/search.html?ws=idsa-default#q=Chipset%20INF%20Utility&sort=relevancy&f:@tabfilter=[Downloads]&f:@stm_10385_en=[Chipsets]](https://www.intel.com/content/www/us/en/search.html?ws=idsa-default#q=Chipset%20INF%20Utility&sort=relevancy&f:@tabfilter=[Downloads]&f:@stm_10385_en=[Chipsets])
+
+Of course, you can also use the **Intel® Driver & Support Assistant (Intel® DSA)** for automatic detection and updates:  
+[https://www.intel.com/content/www/us/en/support/detect.html](https://www.intel.com/content/www/us/en/support/detect.html)
+
+I personally enjoy automated updates, but I created this project because I prefer **simple, straightforward solutions**.  
+
+Direct link to one of the official drivers:  
+[https://www.intel.com/content/www/us/en/download/19347/chipset-inf-utility.html](https://www.intel.com/content/www/us/en/download/19347/chipset-inf-utility.html)
+
 
 ---
 
