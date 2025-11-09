@@ -97,7 +97,31 @@ It shares a few device IDs with its predecessor (**C600, codename Patsburg**), s
 
 If someone at Intel had organized this properly, we would have **separate packages per platform**, for example:
 
-```bash
-SetupChipset-Skylake.exe  
-SetupChipset-AlderLake.exe  
-SetupChipset-Patsburg.exe
+
+| Filename                     | Version  | Release Date |
+| :--------------------------- | :------: | :---------- |
+| SetupChipset-Skylake.exe     | 25.2.0  | 15/02/2025  |
+| SetupChipset-AlderLake.exe   | 24.8.0  | 02/08/2024  |
+| SetupChipset-Patsburg.exe    | 23.12.2 | 30/12/2023  |
+
+
+Each would contain only the relevant INF files — clear, versioned, and predictable.
+
+Instead, Intel went with the “one gigantic package for everything” approach, such as:
+
+- 10.1.20266.8668 (consumer bundle)
+- 10.1.20314.8688 (server-only bundle, not publicly available)
+
+Does this make sense? You decide.
+
+---
+
+## 🧠 Final Thoughts
+
+Below is my current working list of last-known Intel Chipset INF versions per platform.  
+If you spot any inconsistencies — don’t blame me, blame Intel.  
+They don’t pay me enough for this headache. 😅
+
+📘 **Full detailed version matrix:**  
+[https://github.com/FirstEver-eu/Intel-Chipset-Updater/blob/main/Intel_Chipsets_List.md](https://github.com/FirstEver-eu/Intel-Chipset-Updater/blob/main/Intel_Chipsets_List.md)
+
