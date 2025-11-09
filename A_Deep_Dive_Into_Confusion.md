@@ -134,9 +134,8 @@ Direct link to one of the official Chipset INF Utility drivers:
 
 ## 🧠 Final Thoughts
 
-Below is my current working list of last-known Intel Chipset INF versions per platform.  
-If you spot any inconsistencies — don’t blame me, blame Intel.  
-They don’t pay me enough for this headache. 😅
+Below is my current working list of the last-known Intel Chipset INF versions per platform.  
+If you notice any inconsistencies or errors, please report them — these will help improve the accuracy of this list.
 
 📘 **Full detailed version matrix:**  
 [https://github.com/FirstEver-eu/Intel-Chipset-Updater/blob/main/Intel_Chipsets_List.md](https://github.com/FirstEver-eu/Intel-Chipset-Updater/blob/main/Intel_Chipsets_List.md)
