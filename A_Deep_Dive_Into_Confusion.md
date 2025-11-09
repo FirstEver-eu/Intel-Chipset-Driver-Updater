@@ -98,11 +98,11 @@ It shares a few device IDs with its predecessor (**C600, codename Patsburg**), s
 If someone at Intel had organized this properly, we would have **separate packages per platform**, for example:
 
 
-| Filename                     | Version  | Release Date |
-| :--------------------------- | :------: | :---------- |
-| SetupChipset-Skylake.exe     | 25.2.0  | 15/02/2025  |
-| SetupChipset-AlderLake.exe   | 24.8.0  | 02/08/2024  |
-| SetupChipset-Patsburg.exe    | 23.12.2 | 30/12/2023  |
+| Filename                                      | Version  | Release Date |
+| :-------------------------------------------- | :------: | :---------- |
+| IntelChipset-Skylake-25.2.0-win10-win11.exe   | 25.2.0  | 15/02/2025  |
+| IntelChipset-AlderLake-24.8.0-win10-win11.exe | 24.8.0  | 02/08/2024  |
+| IntelChipset-Patsburg-23.12.2-win10-win11.exe | 23.12.2 | 30/12/2023  |
 
 
 Each would contain only the relevant INF files — clear, versioned, and predictable.
