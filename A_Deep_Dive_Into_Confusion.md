@@ -63,7 +63,7 @@ When I tracked down the **10.1.1.45** installer, I discovered Intel had released
 | :--- | :--- | :--- |
 | ASUS / MSI | ~3.84 MB | Typical OEM bundle |
 | Gigabyte | ~3.86 MB | Slightly larger |
-| My own copy | 3.18 MB | Smallest file, but *largest extracted size*! |
+| Other Source | 3.18 MB | Smallest file, but *largest extracted size*! |
 
 These are **SFX CAB archives** with varying compression levels — so identical version numbers don’t necessarily mean identical content.
 
