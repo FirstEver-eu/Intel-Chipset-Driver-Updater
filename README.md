@@ -1,3 +1,5 @@
+# Intel Chipset Driver Updater
+
 ## 🧾 Description
 Automated tool to download and install the latest Intel Chipset drivers directly from Intel servers and manufacturer websites.
 
