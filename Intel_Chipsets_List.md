@@ -1,5 +1,12 @@
 # Intel Chipsets List - System Drivers
 
+<!-- # Future/Unreleased Intel Platforms
+Note: These platforms are announced/future and currently **not detected** by the latest Intel chipset drivers.
+| 8A23 | PantherLake / Desktop | TBD | TBD |
+| 8A25 | PantherLake / Mobile  | TBD | TBD |
+| 9A24 | ClearwaterForest / Server | TBD | TBD |
+-->
+
 ## Intel® Core™ Ultra (1st Generation)
 | HW_ID | Platform | Driver | Max Version |
 | :--- | :--- | :--- | :--- |
