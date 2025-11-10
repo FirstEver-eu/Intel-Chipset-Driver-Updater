@@ -52,7 +52,7 @@ Automated tool to download and install the latest Intel Chipset drivers directly
 
 ### 🔍 Troubleshooting
 For detailed logging and troubleshooting, use:
-1. `Get-Intel-HWIDs.bat` and `Get-Intel-HWIDs.ps1`
+1. Download both `Get-Intel-HWIDs.bat` and `Get-Intel-HWIDs.ps1`
 2. Run `Get-Intel-HWIDs.bat` as Administrator
 3. Provides extensive logging to C:\Intel_HWIDs_Report.txt for issue diagnosis.
 
