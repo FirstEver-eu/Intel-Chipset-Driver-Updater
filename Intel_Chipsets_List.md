@@ -79,7 +79,7 @@
 | HW_ID | Platform | Driver | Max Version |
 | :--- | :--- | :--- | :--- |
 | 8C01 | Broadwell / B85 | Broadwell.inf | 10.1.1.13* |
-| 8D54 | Broadwell-E / X99 | WellsburgSystem.inf | 10.1.2.85* |
+| 8D54 | Broadwell-E / X99 | WellsburgSystem.inf | 10.1.2.19* |
 
 ## 4th Generation (Haswell/Haswell-E)
 | HW_ID | Platform | Driver | Max Version |
