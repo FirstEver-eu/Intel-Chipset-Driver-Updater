@@ -92,7 +92,7 @@
 ## 3rd Generation (Ivy Bridge-E)
 | HW_ID | Platform | Driver | Max Version |
 | :--- | :--- | :--- | :--- |
-| 1D10 | IvyBridge-E / X79 | Patsburg.inf | 10.1.1.38 |
+| 1D10 | IvyBridge-E / X79/C600 | Patsburg.inf | 10.1.1.38 |
 
 ## Server Platforms
 | HW_ID | Platform | Driver | Max Version |
