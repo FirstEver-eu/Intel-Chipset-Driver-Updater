@@ -23,7 +23,7 @@ Note: These platforms are announced/future and currently **not detected** by the
 | :--- | :--- | :--- | :--- |
 | A77D | RaptorLake / Z790 | RaptorLakeSystem.inf | 10.1.49.10 |
 | 7A00 | RaptorLake-PCH-S / W780 | RaptorLakePCH-SSystem.inf | 10.1.46.5 |
-| A3A0 | RaptorLake / RaptorLake Refresh / Z790/Z890 | RaptorLake.inf | 10.1.20062.8627* |
+| A3A0 | RaptorLake / RaptorLake Refresh / Z790/Z890 | CometLakePCH-VSystem.inf | 10.1.33.5 |
 
 ## 12th Generation (Alder Lake)
 | HW_ID | Platform | Driver | Max Version |
@@ -33,7 +33,6 @@ Note: These platforms are announced/future and currently **not detected** by the
 | 7A80 | AlderLake-PCH-S / W680 | AlderLakePCH-SSystem.inf | 10.1.37.7 |
 | 7A87 | AlderLake / Z690/W680 | AlderLakeSystem.inf | 10.1.45.9 |
 | 54A3 | AlderLake-N / Mobile | AlderLakePCH-NSystem.inf | 10.1.50.8 |
-| A2A0 | AlderLake / Z690 | AlderLake.inf | 10.1.19899.8597* |
 
 ## 11th Generation (Tiger Lake / Rocket Lake)
 | HW_ID | Platform | Driver | Max Version |
@@ -58,13 +57,13 @@ Note: These platforms are announced/future and currently **not detected** by the
 ## 9th Generation (Coffee Lake Refresh)
 | HW_ID | Platform | Driver | Max Version |
 | :--- | :--- | :--- | :--- |
-| A2C5 | CoffeeLake / Z390 | CoffeelakeSystem.inf | 10.1.18836.8283* |
-| A2C6 | CoffeeLake / Z370 | CoffeelakeSystem.inf | 10.1.18295.8201* |
-| A2C1 | CoffeeLake / H370 | CoffeelakeSystem.inf | 10.1.18019.8144* |
-| A2C2 | CoffeeLake / B360 | CoffeelakeSystem.inf | 10.1.18019.8144* |
-| A308 | CoffeeLake / H310C/B365 | CoffeelakeSystem.inf | 10.1.18836.8283* |
-| A2D1 | Skylake-X / CascadeLake-X / X299 | CoffeelakeSystem.inf | 10.1.18836.8283* |
-| A2C8 | CoffeeLake / C246 | CoffeelakeSystem.inf | 10.1.17968.8131* |
+| A2C5 | CoffeeLake / Z390 | KabyLakePCH-HSystem.inf | 10.1.11.5 |
+| A2C6 | CoffeeLake / Z370 | KabyLakePCH-HSystem.inf | 10.1.11.5 |
+| A2C1 | CoffeeLake / H370 | KabyLakePCH-HSystem.inf | 10.1.11.5 |
+| A2C2 | CoffeeLake / B360 | KabyLakePCH-HSystem.inf | 10.1.11.5 |
+| A308 | CoffeeLake / H310C/B365 | CannonLake-HSystem.inf | 10.1.16.8 |
+| A2D1 | Skylake-X / CascadeLake-X / X299 | KabyLakePCH-HSystem.inf | 10.1.11.5 |
+| A2C8 | CoffeeLake / C246 | KabyLakePCH-HSystem.inf | 10.1.11.5 |
 
 ## 8th Generation (Coffee Lake)
 | HW_ID | Platform | Driver | Max Version |
@@ -74,6 +73,7 @@ Note: These platforms are announced/future and currently **not detected** by the
 ## 7th Generation (Kaby Lake)
 | HW_ID | Platform | Driver | Max Version |
 | :--- | :--- | :--- | :--- |
+| A2A0 | KabyLake-PCH-H / H270 | KabyLakePCH-HSystem.inf | 10.1.11.5 |
 | A290 | KabyLake-PCH-H / H270 | KabyLakePCH-HSystem.inf | 10.1.11.5 |
 | 2910 | KabyLake / Z270 | KabyLake.inf | 10.1.10.5 |
 | A110 | Skylake/KabyLake (H) / Z170/H170/Z270/H270 | SunrisePoint-HSystem.inf | 10.1.6.3 |
@@ -89,8 +89,8 @@ Note: These platforms are announced/future and currently **not detected** by the
 ## 5th Generation (Broadwell)
 | HW_ID | Platform | Driver | Max Version |
 | :--- | :--- | :--- | :--- |
-| 8C01 | Broadwell / B85 | Broadwell.inf | 10.1.1.13* |
-| 8D54 | Broadwell-E / X99/C610 Series | WellsburgSystem.inf | 10.1.2.19* |
+| 8C01 | Broadwell / B85 | LxPtIde.inf | 9.4.0.1023 10.1.1.13* |
+| 8D54 | Broadwell-E / X99/C610 Series | WellsburgSystem.inf | 10.1.2.19 |
 
 ## 4th Generation (Haswell/Haswell-E)
 | HW_ID | Platform | Driver | Max Version |
@@ -98,12 +98,12 @@ Note: These platforms are announced/future and currently **not detected** by the
 | 8C02 | Haswell / Z87 | 8SeriesSystem.inf | 10.1.1.8* |
 | 8C03 | Haswell / H87 | 8SeriesSystem.inf | 10.1.1.8* |
 | 8C04 | Haswell / H81/C220 | 8SeriesSystem.inf | 10.1.20062.8627* |
-| 8D50 | Haswell-E / X99/C610 Series | WellsburgSystem.inf | 10.1.2.19* |
+| 8D50 | Haswell-E / X99/C610 Series | WellsburgSystem.inf | 10.1.2.86 |
 
 ## 3rd Generation (Ivy Bridge-E)
 | HW_ID | Platform | Driver | Max Version |
 | :--- | :--- | :--- | :--- |
-| 1D10 | IvyBridge-E / X79/C600 Series | Patsburg.inf | 10.1.2.19 |
+| 1D10 | IvyBridge-E / X79/C600 Series | Patsburg.inf | 10.1.2.86 |
 
 ## Server Platforms
 | HW_ID | Platform | Driver | Max Version |
