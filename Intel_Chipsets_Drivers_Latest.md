@@ -411,10 +411,9 @@
 
 ---
 
-**Note on package versions:** Intel occasionally releases driver packages in two variants: consumer (without suffix) and server (with 'S' suffix). Each variant includes slightly different drivers optimized for their respective platforms. In this list, we denote the server variant with the 'S' suffix to distinguish it from the consumer version. For example, version `10.1.20314.8688` was released only as a server variant (hence marked as `10.1.20314.8688(S)`), we consistently mark the server variants to avoid confusion.
+**Note on package versions:** Intel occasionally releases driver packages in two variants: consumer and server. Each variant includes slightly different drivers optimized for their respective platforms. In this list, we denote the server variant with the 'S' suffix to distinguish it from the consumer version.
 
-*Dates marked with `*` indicate no driver date was provided; the installer package certificate date was used instead.*
+Dates marked with * indicate that the driver itself has no embedded date and defaults to the system’s minimal date — in this case, 18/07/2025. An approximate release date is provided based on the certificate timestamp found in the installer containing these drivers.
 
-**Prepared by:** Marcin Grygiel  
-**Source:** [Intel Chipset Updater](https://github.com/FirstEver-eu/Intel-Chipset-Updater/blob/main/Intel_Chipsets_Drivers_Latest.md)  
-**Generated:** 2025-11-12
+**Source:** [Intel Chipset Driver Updater](https://github.com/FirstEver-eu/Intel-Chipset-Updater/blob/main/Intel_Chipsets_Drivers_Latest.md) - project by: **Marcin Grygiel**
+**Last Update** 2025-11-12
