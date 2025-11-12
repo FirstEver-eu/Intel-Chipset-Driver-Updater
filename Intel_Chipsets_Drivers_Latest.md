@@ -411,7 +411,7 @@
 
 ---
 
-**Note on package versions:** Intel occasionally releases driver packages in two variants: consumer (without suffix) and server (with 'S' suffix). Each variant includes slightly different drivers optimized for their respective platforms. In this list, we denote the server variant with the 'S' suffix to distinguish it from the consumer version. For example, version `10.1.20314.8688` was released only as a server variant (hence marked as `10.1.20314.8688S`), but historically there have been cases where the same version number was used for both consumer and server packages. We consistently mark the server variants to avoid confusion.
+**Note on package versions:** Intel occasionally releases driver packages in two variants: consumer (without suffix) and server (with 'S' suffix). Each variant includes slightly different drivers optimized for their respective platforms. In this list, we denote the server variant with the 'S' suffix to distinguish it from the consumer version. For example, version `10.1.20314.8688` was released only as a server variant (hence marked as `10.1.20314.8688(S)`), we consistently mark the server variants to avoid confusion.
 
 *Dates marked with `*` indicate no driver date was provided; the installer package certificate date was used instead.*
 
