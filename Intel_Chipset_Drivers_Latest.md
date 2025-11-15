@@ -182,7 +182,7 @@
 |--------|---------|---------|------|--------|
 | IvyBridgeSystem.inf | 10.1.18981.6008 | 10.1.3.2 | 04/01/2021\* | 0150, 0151, 0154, 0155, 0158, 0159, 015C, 015D |
 
-### Ivybridge-E/IvyTown
+### IvybridgeE/IvyTown
 **Generation:** Xeon E5 v2 / Core i7 (Ivy Bridge-E) – Enthusiast/Server
 
 | Driver | Package | Version | Date | HW_IDs |
