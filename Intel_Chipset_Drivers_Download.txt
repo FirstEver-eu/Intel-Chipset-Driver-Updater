@@ -1,7 +1,7 @@
 Name = Intel Chipset Device Software
 DriverVer = 26/09/2025,10.1.20266.8668
 Link = https://downloadmirror.intel.com/861043/SetupChipset.exe
-Prefix = \
+Prefix = \SetupChipset.exe
 
 Name = Intel Chipset Device Software
 DriverVer = 29/07/2021,10.1.1.8
